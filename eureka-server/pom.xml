@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.diegogomesaraujo</groupId>
-	<artifactId>eruka-server</artifactId>
+	<artifactId>eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eruka-server</name>
-	<description>eruka-server</description>
+	<name>eureka-server</name>
+	<description>eureka-server</description>
 
 	<properties>
 		<java.version>11</java.version>

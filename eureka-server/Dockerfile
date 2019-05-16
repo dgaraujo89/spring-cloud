@@ -7,7 +7,10 @@ WORKDIR /build
 
 RUN apt-get update && \
 	apt-get install -y git && \
-	git clone https://github.com/diegogomesaraujo/spring-cloud.git && \
+	git clone https://github.com/diegogomesaraujo/spring-cloud.git
+
+RUN pwd && \
+	ls -lh && \
 	cd spring-cloud/eureka-server && \
 	mvn clean package
 	
