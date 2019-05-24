@@ -1,0 +1,3 @@
+
+spring:
+  application:    name: eureka-server  cloud:    config:        uri: http://TI0038240:9000
